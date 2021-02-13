@@ -1,0 +1,150 @@
+body, html {
+    height:100%;
+  }
+  .background-img {
+    background-image: url('https://eskipaper.com/images/simple-backgrounds-11.jpg');
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  #title {
+    font-size: 36px;
+    color: #002257;
+    margin: 25px auto 5px auto;
+      text-align: center;
+  }
+  #description {
+    font-size: 18px;
+    color: #002257;
+    margin: auto;
+    text-align: center;
+  }
+  .box {
+    width: 800px;
+    height: 1050px;
+    background-image: linear-gradient(dodgerblue, MediumSeaGreen
+  );
+    opacity: 1;
+    margin: 30px auto;
+    border-radius: 5px;
+  }
+  #text{
+    font-size:20px;
+    color:black;
+    postion:relative;
+    display:inline-block;
+    text-align:left;
+    margin: 5% 1% 1.1% 5%;
+  }
+  #name-label {
+    font-size:20px;
+    color:black;
+    postion:relative;
+    display:inline-block;
+    text-align:left;
+    margin: 5% 1% 0.1% 5%;
+  }
+  #name {
+    margin: 0 auto 4% 3%;
+    width:93%;
+    height:25px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:0.25rem;
+    padding:5px;
+    font-size:14px
+  }
+  #email-label {
+    font-size:20px;
+    color:black;
+    postion:relative;
+    display:inline-block;
+    text-align:left;
+    margin: 1% 1% 0.1% 5%;
+  } 
+  #email {
+    margin:0 auto 4% 3%;
+    width:93%;
+    height:25px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:0.25rem;
+    padding:5px;
+    font-size:14px  
+  }
+  #number-label{
+    font-size:20px;
+    color:black;
+    postion:relative;
+    display:inline-block;
+    text-align:left;
+    margin: 1% 1% 0.1% 5%;
+  }
+  #number {
+    margin:0 auto 4% 3%;
+    width:93%;
+    height:25px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:0.25rem;
+    padding:5px;
+    font-size:14px  
+  }
+  #dropdown{
+    width:93%;
+    height:35px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:0.25rem;
+    margin:0 auto 4% 3%;
+    padding:5px;
+    font-size:14px
+  }
+  #dropdown-label{
+    font-size:20px;
+    color:black;
+    postion:relative;
+    display:inline-block;
+    text-align:left;
+    margin: 1% 1% 0.1% 5%;
+  }
+  #number-of-plays{
+    margin:25px 35px 32px 30px;
+    font-size:19px;
+  }
+  #romeo{
+     margin:25px 35px 32px 30px;
+    font-size:19px;
+  }
+  #hamlet{
+    margin:25px 35px 32px 30px;
+    font-size:19px;  
+  }
+  #lear{
+    margin:25px 35px 32px 30px;
+    font-size:19px; 
+  }
+  #othello{
+    margin:25px 35px 32px 30px;
+    font-size:19px; 
+  }
+  #essay{
+    width: 500px;
+    height: 250px;
+    margin:20px 20px 30px 70px;
+  }
+  input[type="text"]::placeholder {
+    text-align:center;
+  }
+  #submit{
+   margin:0 auto 4% 3%;
+    width:93%;
+    height:25px;
+    background-color:#94b4ff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:0.25rem;
+    padding:5px;
+    font-size:14px  }

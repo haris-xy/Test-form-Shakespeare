@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background-img">
+    <h1 id="title"> Shakespeare's Works
+    </h1>
+    <p id="description"> <em> Thank you for your time and love for Shakespeare </em></p>
+    <form id="survey-form" class="box"> 
+      <label for="name" id="name-label"><strong> Name </strong></label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+      <label for="email" id="email-label"> <strong> Email</strong></label>
+      <input id="email" type="email" name="email" required placeholder="Enter your Email">
+      <label for="number" id="number-label"> <strong> Age</strong></label>
+  <input type="number" id="number" name="number" min="1" max="99" required placeholder="Enter your age">
+  <label id="dropdown-label" for="works"><strong> What's your favorite type of Shakespeare's plays:</strong></label>
+  <select name="works" id="dropdown">
+    <option value="tragedies">Tragedies</option>
+    <option value="comedies">Comedies</option>
+    <option value="histories">Histories</option>
+    <option value="problem plays">Problem plays</option></select>
+      <p id="text"><strong>How many plays of Shakespeare have you read?</strong></p>
+      <br>
+  <label id="number-of-plays" for="0-5">
+    <input type="radio" name="number-of-plays" value="0-5" checked>0-5</label>
+  <label id="number-of-plays" for="5-15">
+    <input type="radio" name="number-of-plays" value="5-15">5-15</label>
+  <label id="number-of-plays" for="15-25">
+    <input type="radio" name="number-of-plays" value="15-25">15-25</label>
+    <label id="number-of-plays" for="More than 30" id="cont">
+      <input type="radio" name="number-of-plays" value="More than 30">More than 30</label>
+      <br>
+      <p id="text"><strong>I have read the following plays:</strong></p>
+      <br>
+    <label for="Romeo and Juliet" id="romeo"><input type="checkbox" name="Romeo and Juliet" value="Romeo and Juliet"> Romeo and Juliet</label>
+    <label for="Hamlet" id="hamlet"><input type="checkbox" name="Hamlet" value="Hamlet"> Hamlet</label>
+    <label for="Lear" id="lear"><input type="checkbox" name="Lear" value="Lear"> King Lear</label>
+    <label for="Othello" id="othello"><input type="checkbox" name="Othello" value="Othello"> Othello</label>
+    <br>
+      <p id="text">Write your favorite thing about Shakespeare:</p> 
+    <label for="essay"><input type="text" id="essay" name="essay" placeholder="Write your favorite thing about Shakespeare right here:"></label> 
+      <br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+</html>
